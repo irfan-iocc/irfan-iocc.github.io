@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="content" style="position: absolute; 
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 30%;" class="text-center card">
+        <div class="v1211_265">
+            <span class="v1211_266 mt-2">SECONDARY PROCESS</span>
+        </div>
+        <div class="ataInput">
+            STA : <input id="staInput" type="datetime-local" name="partydate"><br>
+            <!-- ATA : <input id="ataInput" type="datetime-local" name="partydate"><br> -->
+            STD : <input id="stdInput" type="datetime-local" name="partydate"><br>
+            <div id="aht"></div>
+        </div>
+
+        <span class="v1211_267">UNLOADING</span>
+        <span class="v1211_268">LOADING</span>
+        <div class="v1211_269">
+            <div class="name"></div>
+            <div class="name"></div>
+            <div class="name"></div>
+            <div class="name"></div>
+            <div class="name"></div>
+            <div class="name"></div>
+            <div class="name"></div>
+            <div class="name"></div>
+            <div class="v1211_278">
+                <button data-ct="Bo" id="racStart" class="cp_time mt-0 btn btn-danger px-0 py-0"
+                    style="height: 100%;width: 100%;">Go
+                    !!!</button>
+            </div>
+            <div class="v1211_285">
+                <button data-ct="Ds" disabled class="cp_time mt-0 btn btn-secondary px-0 py-0"
+                    style="height: 100%;width: 100%;">
+                </button>
+            </div>
+            <div class="v1211_279">
+                <button data-ct="Df" disabled class="cp_time mt-0 btn btn-secondary px-0 py-0"
+                    style="height: 100%;width: 100%;"></button>
+            </div>
+            <div class="v1211_280">
+                <button data-ct="Cf" disabled class="cp_time mt-0 btn btn-secondary px-0 py-0"
+                    style="height: 100%;width: 100%;"></button>
+            </div>
+            <div class="v1211_281">
+                <button data-ct="Bs" disabled class="cp_time mt-0 btn btn-secondary px-0 py-0"
+                    style="height: 100%;width: 100%;"></button>
+            </div>
+            <div class="v1211_282">
+                <button data-ct="Bf" disabled class="cp_time mt-0 btn btn-secondary px-0 py-0"
+                    style="height: 100%;width: 100%;"></button>
+            </div>
+            <div class="v1211_283">
+                <button data-ct="Dc" disabled class="cp_time mt-0 btn btn-secondary px-0 py-0"
+                    style="height: 100%;width: 100%;"></button>
+            </div>
+            <div class="v1211_284">
+                <button data-ct="Pb" disabled class="cp_time mt-0 btn btn-secondary px-0 py-0"
+                    style="height: 100%;width: 100%;"></button>
+            </div>
+            <div id="devBo" class="v1211_286 text-center"></div>
+            <div id="devDs" class="v1211_287"></div>
+            <div id="devDf" class="v1211_288"></div>
+            <div id="devCf" class="v1211_289"></div>
+            <div id="devBs" class="v1211_290"></div>
+            <div id="devBf" class="v1211_300"></div>
+            <div id="devDc" class="v1211_291"></div>
+            <div id="devPb" class="v1211_299"></div>
+            <div id="devpBo" class="v1211_292"></div>
+            <div id="devpDs" class="v1211_293"></div>
+            <div id="devpDf" class="v1211_294"></div>
+            <div id="devpCf" class="v1211_295"></div>
+            <div id="devpBs" class="v1211_296"></div>
+            <div id="devpDc" class="v1211_297"></div>
+            <div id="devpBf" class="v1211_298"></div>
+            <select class="v1211_301" name="cars" id="cars">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <select class="v1211_302" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <select class="v1211_303" name="cars" id="cars">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <select class="v1211_304">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+
+            <select class="v1211_305">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <select class="v1211_306">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <select class="v1211_307">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <select class="v1211_308">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <div class="name"></div>
+            <div class="name"></div>
+            <div class="v1211_311"></div>
+            <div class="v1211_312"></div>
+            <div class="v1211_313"></div>
+            <div class="v1211_314"></div>
+            <div class="v1211_315"></div>
+            <div class="v1211_316"></div>
+            <div class="v1211_317"></div>
+            <div class="v1211_318"></div>
+            <span id="tgtBo" class="v1211_319">-- : --</span>
+            <span class="v1211_328">BO</span>
+            <span class="v1211_329">DS</span>
+            <span class="v1211_330">DF</span>
+            <span class="v1211_331">CF</span>
+            <span class="v1211_332">BS</span>
+            <span class="v1211_333">BF</span>
+            <span class="v1211_334">DC</span>
+            <span class="v1211_335">PB</span>
+            <span class="v1211_336">Block On</span>
+            <span class="v1211_337">Disembark Start</span>
+            <span class="v1211_338">Disembark Finish</span>
+            <span class="v1211_339">Crew o/b Finish</span>
+            <span class="v1211_340">Boarding Start</span>
+            <span class="v1211_341">Boarding Finish</span>
+            <span class="v1211_342">Door Cloased</span>
+            <span class="v1211_343">Push Back</span>
+            <span id="tgtDs" class="v1211_344">-- : --</span>
+            <span id="tgtDf" class="v1211_345">-- : --</span>
+            <span id="tgtCf" class="v1211_346">-- : --</span>
+            <span id="tgtBs" class="v1211_347">-- : --</span>
+            <span id="tgtBf" class="v1211_348">-- : --</span>
+            <span id="tgtDc" class="v1211_349">-- : --</span>
+            <span id="tgtPb" class="v1211_350">-- : --</span>
+        </div>
+        <div id="cpTitle" style="position:absolute;top: 252px;">
+            <div class="v1211_351"></div>
+            <div class="v1211_352"></div>
+            <span class="v1211_353">Target</span>
+            <span class="v1211_354">O</span>
+            <span class="v1211_355">Actual</span>
+            <span class="v1211_356">Point</span>
+            <span class="v1211_357">Process</span>
+            <span class="v1211_358">DelayCd</span>
+        </div>
+        <div class="v1211_359">
+            <div class="v1211_360">
+                <div class="v1211_361">
+                    <div class="v1211_362"></div>
+                </div>
+            </div>
+            <div class="v1211_363">
+                <div class="v1211_364">
+                    <div class="v1211_365"></div>
+                </div>
+            </div>
+            <div class="v1211_366">
+                <div class="v1211_367">
+                    <div class="v1211_368"></div>
+                </div>
+            </div>
+        </div>
+        <div class="v1211_369"></div>
+        <div class="v1211_370">
+            <span class="v1211_372">Flight.N <br>
+                JT-3454</span>
+            <span class="v1211_373">Route
+                CGK-PLM</span>
+            <span class="v1211_374">STA<br>
+                <span id="staShow">-- : --</span>
+            </span>
+            <span class="v1211_375">STD<br>
+                <span id="stdShow">-- : --</span>
+            </span>
+            <span class="v1211_376">DATE<br>
+                <span id="staDateShow">--/--/--</span></span>
+        </div>
+        <span class="v1211_371">RAMP ACTIVITY CHECKLIST</span>
+
+        <div class="name"></div>
+        <div class="name"></div>
+        <div class="name"></div>
+        <div class="name"></div>
+        <div class="name"></div>
+        <div class="name"></div>
+        <div class="name"></div>
+        <div class="name"></div>
+        <div style="position: absolute;
+        top: 212px;">
+            <div class="v1211_385"></div>
+            <div class="v1211_386"></div>
+            <div class="v1211_387"></div>
+            <div class="v1211_388"></div>
+            <div class="v1211_389"></div>
+            <div class="v1211_390"></div>
+            <span class="v1211_391">Summary</span>
+            <div class="v1211_392"></div>
+        </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="ok.js"></script>
+</body>
+
+</html>
